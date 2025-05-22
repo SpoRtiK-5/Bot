@@ -7,9 +7,9 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters import Text
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_TOKEN = 'YOUR_BOT_TOKEN'
-ADMIN_GROUP_ID = -1001234567890  # Замените на ID вашей группы
-ADMIN_IDS = [123456789]  # ID админов, кто может использовать обратную связь
+API_TOKEN = '7763998160:AAHCHxNBE7PHKi2dJsMZzUZlsaaJcT9BCV4'
+ADMIN_GROUP_ID = -4827726129  # Замените на ID вашей группы
+ADMIN_IDS = [737905673]  # ID админов, кто может использовать обратную связь
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
